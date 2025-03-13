@@ -10,11 +10,14 @@
 main {
     width: fit-content;
     position: relative;
-    left: 42.5%;
-    padding-top: 15vw;
+    margin: 0 auto;
     text-align: center;
 }
 
 ul {
     list-style: none;
+}
+
+div{
+    padding: 5px;
 }
