@@ -1,10 +1,13 @@
 // Funzione
 function generaEmail() {
+    let email = "";
     fetch( "https://flynn.boolean.careers/exercises/api/random/mail" )
         .then( response => response.json() )
         .then( data => {
-            return data.response;
+            email = data.response;
+            return email;
         });
+    
 };
 
 // Script
