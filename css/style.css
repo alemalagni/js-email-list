@@ -11,9 +11,15 @@ main {
     width: fit-content;
     position: relative;
     margin: 0 auto;
+    padding-top: 15vw;
 }
 
 /* Button */
+#button-div {
+    margin: 0 auto;
+    width: fit-content;
+}
+
 #button {
     padding: 10px;
     font-size: 20px;
