@@ -10,7 +10,7 @@ button.addEventListener( "click",
                 .then( response => response.json() )
                 .then( data => {
                     lista.innerHTML = lista.innerHTML + `
-                    <li><div><span>${data.response}</span></div></li>
+                    <li><div><span>${i}: ${data.response}</span></div></li>
                     `
                 });
         };
