@@ -10,8 +10,9 @@
 main {
     width: fit-content;
     position: relative;
-    left: 45%;
+    left: 42.5%;
     padding-top: 15vw;
+    text-align: center;
 }
 
 ul {
